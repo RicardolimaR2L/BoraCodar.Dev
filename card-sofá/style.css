@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(196, 179, 200);
+  padding: 0px;
+  gap: 13px;
+  border-radius: 25px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 31.12rem;
+  width: 54.68rem;
+  margin-top: 70px;
+  border-radius: 25%;
+  border: #d9cdf7;
+  border-radius: 20%;
+}
+/*MAIN*/
+main {
+  flex: 0 30%;
+  background-color: #d9cdf7;
+}
+
+main .sofá {
+  max-width: 449px;
+  margin-top: 8px;
+}
+
+
+
+main button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #d9cdf7;
+
+  width: 38px;
+  height: 25.47px;
+}
+
+.btn-360 {
+  margin-top: 150px;
+  margin-left: 325px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  
+}
+
+
+button img {
+  width: 26px;
+  height: 22.47px;
+}
+
+/*ASIDE*/
+
+aside {
+  flex: 2;
+  background-color: rgba(217, 205, 247, 1);
+}
+
+aside ul {
+  margin-top: 182px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  gap: 18px;
+
+  width: 281px;
+  height: 82px;
+}
+
+ul {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 10px;
+}
+
+.sofá-name {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "crimson pro";
+  font-weight: 600;
+}
+
+.add-btn{
+  height: 30px;
+  width: 170px;
+  color:rgba(39, 26, 69, 1);
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #d9cdf7;
+
+
+}
