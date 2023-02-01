@@ -57,13 +57,13 @@ main header h2 {
   margin-top: 40px;
   color: #fff;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /*mensagens de Camila*/
 main section .camila-msgm-1 h4 {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 main section .camila-msgm-1 p {
@@ -73,6 +73,10 @@ main section .camila-msgm-1 p {
   top: 24px;
   font-size: 14px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   color: rgba(225, 225, 230, 1);
   padding: 14px;
   background-color: #633bbc;
@@ -81,7 +85,7 @@ main section .camila-msgm-1 p {
 
 main section .camila-msgm-2 h4 {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 main section .camila-msgm-2 p {
@@ -90,6 +94,10 @@ main section .camila-msgm-2 p {
   left: 0px;
   top: 24px;
   padding: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   font-size: 14px;
   background-color: #633bbc;
@@ -127,10 +135,11 @@ main section .você-msgm-2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+
 }
 
 main section .você-msgm-2 h4 {
-  display: flex;
+  display:flex;
   flex-direction: column;
   color: #fff;
 }
