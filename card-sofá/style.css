@@ -33,10 +33,9 @@ main {
 
 main .sofá {
   max-width: 449px;
+  width: 90%;
   margin-top: 8px;
 }
-
-
 
 main button {
   display: flex;
@@ -55,9 +54,7 @@ main button {
   border: none;
   cursor: pointer;
   z-index: 1;
-  
 }
-
 
 button img {
   width: 26px;
@@ -85,7 +82,7 @@ aside ul {
 }
 
 ul {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 15px;
   font-weight: 300;
   line-height: 10px;
@@ -94,17 +91,20 @@ ul {
 .sofá-name {
   font-size: 22px;
   text-transform: uppercase;
-  font-family: "crimson pro";
+  font-family: 'crimson pro';
   font-weight: 600;
 }
 
-.add-btn{
+.add-btn {
   height: 30px;
   width: 170px;
-  color:rgba(39, 26, 69, 1);
+  color: rgba(39, 26, 69, 1);
   cursor: pointer;
   border-radius: 20px;
   background-color: #d9cdf7;
+}
 
-
+.add-btn:hover {
+  color: #d9cdf7;
+  background-color: rgba(39, 26, 69, 1);
 }
