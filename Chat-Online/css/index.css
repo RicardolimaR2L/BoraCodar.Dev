@@ -1,0 +1,221 @@
+body {
+  background-color: rgba(26, 25, 36, 1);
+}
+
+* {
+  font-family: 'roboto';
+}
+.content-box {
+  padding: 24px 32px;
+}
+/*Chat Header*/
+section header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 311px;
+  height: 88px;
+}
+.chat-header > div {
+  display: flex;
+}
+
+.online-status {
+  width: 8px;
+  height: 8px;
+}
+
+section ul {
+  list-style: none;
+}
+section header ul .nome {
+  color: #fff;
+  height: 19px;
+  width: 109px;
+  font-weight: 700;
+}
+
+section header ul .status {
+  margin-top: 4px;
+  color: rgba(0, 179, 126, 1);
+}
+
+section header p {
+  text-align: justify;
+  margin-left: 16px;
+  color: aliceblue;
+}
+
+section img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+/*main*/
+main header h2 {
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+/*mensagens de Camila*/
+main section .camila-msgm-1 h4 {
+  color: #fff;
+  font-size: 12px;
+}
+
+main section .camila-msgm-1 p {
+  height: 56px;
+  width: 149px;
+  left: 0px;
+  top: 24px;
+  font-size: 14px;
+
+  color: rgba(225, 225, 230, 1);
+  padding: 14px;
+  background-color: #633bbc;
+  border-radius: 0px 8px 8px 8px;
+}
+
+main section .camila-msgm-2 h4 {
+  color: #fff;
+  font-size: 12px;
+}
+
+main section .camila-msgm-2 p {
+  height: 56px;
+  width: 149px;
+  left: 0px;
+  top: 24px;
+  padding: 14px;
+
+  font-size: 14px;
+  background-color: #633bbc;
+  border-radius: 0px 8px 8px 8px;
+  color: rgba(225, 225, 230, 1);
+}
+
+/*mensagens de "Você" */
+
+main section .você-msgm-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main section .você-msgm-1 h4 {
+  color: #fff;
+  font-size: 14px;
+}
+
+main section .você-msgm-1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  width: 150px;
+  height: 40px;
+  background: #07847e;
+  color: #fff;
+  border-radius: 8px 8px 0px 8px;
+  font-size: 14px;
+}
+
+main section .você-msgm-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main section .você-msgm-2 h4 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+main section .você-msgm-2 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  width: 110px;
+  height: 42px;
+  color: #fff;
+  font-size: 14px;
+
+  background: #07847e;
+  border-radius: 8px 8px 0px 8px;
+}
+
+.send-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-input p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  gap: 15px;
+
+  width: 360px;
+  height: 42px;
+  font-weight: 400;
+
+  color: #fff;
+  background: #282843;
+  border-radius: 999px;
+}
+
+.send-input p img {
+  height: 19.5px;
+  width: 22.5px;
+}
+
+/*responsividade*/
+
+@media screen and (min-width: 992px) {
+  .chat-header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  span {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main section .camila-msgm-1 p {
+    width: 270px;
+    height: 36px;
+  }
+
+  main section .camila-msgm-2 p {
+    width: 442px;
+    height: 42px;
+  }
+
+
+}
+@media screen and (min-width: 992px) {
+  main header {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+.send-input p{
+  width: 880px;
+height: 52px;
+}
+
+}
+
+
